@@ -1,0 +1,125 @@
+.newsblock{
+	width: 910px;
+	height: 360px;
+	padding-left: 10px;
+	background-color: #EBE9D8;
+	margin-top: -7px;
+	border-top: 5px solid #e6d9b5;
+}
+
+.newsblock .item{
+	float: left;
+	width: 270px;
+	padding-left: 10px;
+}
+
+.newsblock .item h3{
+	margin: 30px 0px -5px 0px;
+}
+
+.newsblock .item span{
+	color: #9e6756;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.newsblock .item .phrase{
+	overflow: hidden;
+	width: 250px;
+	height:	165px;
+}
+
+.newsblock .item p{
+	margin: 20px 0px 14px;
+	text-overflow: ellipsis;
+}
+
+
+.newsblock .item .photo-and-info img{
+	float: left;
+	margin-right: 20px;
+	margin-top: -12px;
+}
+
+.newsblock .item .photo-and-info .text{
+	display: block;
+	color: #000;
+	font-family: "Georgia";
+	font-size: 14px;
+	font-style: normal;
+	margin: 25px 0 0 10px;	
+}
+
+.newsblock .item:nth-child(2){
+	margin-top: -5px;
+	margin-left: 25px;
+}
+
+.newsblock .item:last-child{
+	float: right;
+	padding-left: 0px;
+	margin-right: 16px;
+	margin-top: -5px;
+}
+
+.newsblock .item .news-menu{
+	margin-left: -35px;
+	margin-top: 18px;
+	line-height: 25px;
+}
+
+.newsblock .item .news-menu li{
+	list-style: none;
+}
+
+.newsblock .item .news-menu li:before{
+	content: "→" ; 
+	padding-right: 5px;
+}
+
+.newsblock .item .newsletter{
+	display: block;
+	background-color: #bf3a16;
+	width: 280px;
+	height: 105px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.newsblock .item .newsletter span{
+	color: #fff;
+	font-size: 30px;
+	display: block;
+	margin-left: 20px;
+	font-style: normal;
+	padding-top: 5px;
+}
+
+.newsblock .item .newsletter input[type="text"]{
+	margin-left: 20px;
+	padding-left: 5px;
+	width: 195px;
+	height: 20px;
+	margin-top: 5px;
+}
+
+.newsblock .item .newsletter input[type="submit"]{
+	background-color: #f7931d;
+	color: #fff;
+	border: none;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	width: 42px;
+	height: 22px;
+	font-weight: bold;
+}
+
+.newsblock .item .newsletter a{
+	color: #fff;
+	margin-left: 20px;
+	margin-top: 5px;
+	display: block;
+	
+}

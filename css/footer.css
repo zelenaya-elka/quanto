@@ -1,0 +1,17 @@
+footer{
+	width: 920px;
+	height: 60px;
+	margin: 0 auto;
+}
+
+footer span{
+	display: block;
+	color: #4f4f4f;
+	font-family: "Georgia";
+	font-size: 14px;
+	padding: 30px 15px;
+}
+
+footer a{	
+	text-decoration: none;
+}

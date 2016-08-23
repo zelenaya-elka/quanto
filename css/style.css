@@ -1,0 +1,35 @@
+body, html{
+	height: 100%;	
+}
+
+body{
+	background-color: #f8f8f3;
+}
+
+a{
+	color: #bf3a16;
+	font-weight: normal;
+	font-family: "Georgia";
+	font-size: 14px;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+h3{
+	font-size: 27px;
+	font-weight: normal;
+}
+
+p{
+	font-family: "Georgia";
+	line-height: 18px;
+	font-size: 14px;
+	color: #4f4f4f;
+}
+
+.clear{
+	clear: both;
+}
+
